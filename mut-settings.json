@@ -2,5 +2,5 @@
  executable:"tests_main",
  source: ["raft_server.c","raft_node.c","raft_log.c"],
  testingFramework:"cutest",
- CuTestLibSource="tests/CuTest.c"
+ CuTestLibSource=\:"tests/CuTest.c"
 }
